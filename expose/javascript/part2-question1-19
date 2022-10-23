@@ -1,0 +1,9 @@
+//Question 1
+function discountPrices(prices, dicount){
+    var discounted = [];
+    var finalPrice = 0;
+    
+    for(var i =0; i < prices.length; i++){
+        
+    }
+}
