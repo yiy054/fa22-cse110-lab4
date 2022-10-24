@@ -1,0 +1,1 @@
+The bug was because the two nums are added in type str instead of type num.
