@@ -8,4 +8,3 @@
 7. 09/15/2022
 8. application/json; charset=utf-8
 9. fetchData @ expose.js:4
-    
