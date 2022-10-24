@@ -9,7 +9,7 @@
 //         // finalPrice = Math.round(discountedPrice * 100) /100;
 //         discounted.push(discountedPrice);
 //     }
-
+//     //discounted = [];
 //     // console.log(i);
 //     // console.log(discountedPrice);
 //     // console.log(finalPrice);
@@ -43,14 +43,41 @@
 
 
 //Basic Operators & Type Conversion 
+// console.log();
+// console.log('3' + 2);
+// console.log('3' - 2);
+// console.log(3 + null);
+// console.log('3' + null);
+// console.log(true + 3);
+// console.log(false + null);
+// console.log('3' + undefined);
+// console.log('3' - undefined);
 
-console.log();
-console.log('3' + 2);
-console.log('3' - 2);
-console.log(3 + null);
-console.log('3' + null);
-console.log(true + 3);
-console.log(false + null);
-console.log('3' + undefined);
-console.log('3' - undefined);
+console.log('2' > 1);
+console.log(2 > '12');
+console.log('2' < '12');
+console.log(2 == '2');
+console.log(2 === '2');
+console.log(true == 2);
+console.log(true === Boolean(2));
+
+// Functions Q17
+// function modifyArray(array, callback){
+//     const newArr = [];
+//     for(let i =0; i < array.length; i++){
+//         newArr.push(callback(array[i]));
+//     }
+//     return newArr;
+// }
+// function doSomething(num){
+//     return num * 2;
+// }
+// console.log(modifyArray([1,2,3], doSomething));
+
+
+// //setInterval(), setTimeout(), clearTimeout()
+// let d = new Data();
+// let time = d. toLocalTimeString();
+// console.log(time);
+
 
